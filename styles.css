@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,800;0,900;1,900&display=swap');
-
+@import url('https://i.pinimg.com/originals/78/ec/58/78ec584ad22b96232ef581f0ee7fdb1f.jpg');
 body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
 }
 
+/* Navigation Bar */
 .topnav {
     align-items: center;
     background-color: black;
@@ -14,9 +15,10 @@ body {
     overflow: hidden;
     font-family: Arial, sans-serif;
     height: 70px;
-  }
+}
 
-  .topnav a {
+/* Styles text inside the nav bar */
+.topnav a {
     float: center;
     color: white;
     text-align: center;
@@ -24,12 +26,18 @@ body {
     text-decoration: none;
     font-size: 17px;
     font-weight: bold;
-  }
-  
-  .topnav a:hover {
-    background-color: black;
+}
+
+/* Sets active link color to gold */
+.topnav a.active {
     color: gold;
-  }
+}
+
+/* Sets hover color over nav bar text to gold */
+.topnav a:hover {
+  background-color: black;
+  color: gold;
+}
 
 #parallax {
     background-image: url(robotics.jpg);
@@ -59,9 +67,10 @@ body {
     font-size: 200%;
     align-self: center;
     align-content: center;
-    animation: fadeIn 2s ease-in-out forwards;
+    animation: fadeIn 1.5s ease-in-out forwards;
 }
 
+/* Animation for the header/title */
 @keyframes fadeIn {
   0% {
     opacity: 0;
