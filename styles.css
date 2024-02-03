@@ -5,6 +5,32 @@ body {
     padding: 0;
     font-family: Arial, sans-serif;
 }
+
+.topnav {
+    align-items: center;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+    height: 70px;
+  }
+
+  .topnav a {
+    float: center;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+  }
+  
+  .topnav a:hover {
+    background-color: black;
+    color: gold;
+  }
+
 #parallax {
     background-image: url(robotics.jpg);
     background-attachment: fixed;
@@ -19,6 +45,7 @@ body {
     color: white;
     font-size: 3em;
 }
+
 #parallax h1 {
     font-family: "Poppins", sans-serif;
     font-weight: 800;
@@ -32,7 +59,20 @@ body {
     font-size: 200%;
     align-self: center;
     align-content: center;
+    animation: fadeIn 2s ease-in-out forwards;
 }
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 #content {
     background-color: white;
     color: black;
@@ -43,6 +83,7 @@ body {
     justify-content: center;
     font-size: 2em;
 }
+
 #content h2 {
     font-family: "Poppins", sans-serif;
     font-weight: 600;
@@ -51,6 +92,7 @@ body {
     font-size: 160%;
     margin-left: 3%;
 }
+
 #content p {
     margin-left: 5%;
     font-family: "Poppins", sans-serif;
@@ -58,6 +100,7 @@ body {
     font-style: normal;
     font-size: 100%;
 }
+
 #watermark {
     position: fixed;
     font-family: "Poppins", sans-serif;
