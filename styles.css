@@ -5,41 +5,82 @@ body {
     font-family: Arial, sans-serif;
 }
 
+.header {
+    width: 100%;
+    z-index: 10;
+}
+
 /* Navigation Bar */
-.topnav {
+.navbar {
     align-items: center;
     background-color: black;
     display: flex;
     justify-content: center;
     overflow: hidden;
     font-family: Arial, sans-serif;
-    height: 70px;
+    height: 100px;
 }
 
 /* Styles text inside the nav bar */
-.topnav a {
+.navbar a {
     float: center;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 18px;
     font-weight: bold;
 }
 
 /* Sets active link color to gold */
-.topnav a.active {
+.navbar a.active {
     color: gold;
 }
 
 /* Sets hover color over nav bar text to gold */
-.topnav a:hover {
+.navbar a:hover {
   background-color: black;
   color: gold;
 }
 
+.navbar {
+    position: relative;
+}
+
+/* Logo is bugged and does not center important!!!*/
+.navbar img {
+    float: left;
+    margin-left: 100px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.social-media {
+    justify-content:center;
+    text-align:center;
+    padding-top: 10px;
+}
+  
+.social-media a {  
+    margin: 18px;
+    font-size: 1.5rem;
+}
+  
+.social-media a i{
+    cursor: pointer;
+    position: absolute;
+    color:white;
+}
+  
+.social-media  a:hover {
+      color: white;
+      text-shadow: 0 0 50px rgb(190, 190, 190);
+}
+
+/* Image */
 #parallax {
-    background-image: url(robotics.jpg);
+    background-image: url(images/robotics.jpg);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
