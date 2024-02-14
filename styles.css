@@ -3,7 +3,6 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    background-color: black;
 }
 
 .header {
@@ -27,7 +26,7 @@ body {
     float: center;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 14px 12px;
     text-decoration: none;
     font-size: 18px;
     font-weight: bold;
@@ -47,21 +46,34 @@ body {
 
 .navbar {
     position: relative;
-    padding-left: 200px;
+    padding-left: 100px;
 }
 
-/* Logo is bugged and does not center important!!!*/
 .logo {
     float: left;
     margin-left: 100px;
     position: relative;
     top: 50%;
-    transform: translateX(-275px);
+    transform: translateX(-175px);
+    width: 23%;
+    height: 23%;
+}
+
+.team-name {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 150%;
+    color: white;
+    transform: translateX(-335px);
+    
+
 }
 
 .social-media {
     justify-content:center;
     text-align:center;
+
 }
   
 .social-media a {  
@@ -109,7 +121,7 @@ body {
     font-size: 200%;
     align-self: center;
     align-content: center;
-    animation: fadeIn 1.5s ease-in-out forwards;
+    animation: fadeIn 1s ease-in-out forwards;
 }
 
 /* Animation for the header/title */
@@ -125,7 +137,7 @@ body {
 }
 
 #content {
-    background-color: black;
+    background-color: white;
     color: black;
     height: 100vh;
     display: flex;
@@ -136,7 +148,7 @@ body {
 }
 
 #content h2 {
-    color: gold;
+    color: black;
     font-family: "Poppins", sans-serif;
     font-weight: 600;
     font-style: normal;
@@ -151,7 +163,7 @@ body {
     font-weight: 400;
     font-style: normal;
     font-size: 100%;
-    color:gold;
+    color: black;
 }
 
 #watermark {
