@@ -175,9 +175,11 @@ body {
     align-items: center;
     align-self: center;
     align-content: center;
+    justify-content: center;
 }
 
 #person {
+    margin-left: 20px;
     align-self: center;
     grid-column: auto;
     text-align: center;
