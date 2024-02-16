@@ -164,6 +164,11 @@ body {
     font-style: normal;
     font-size: 100%;
     color: black;
+    text-align: center;
+}
+
+#money {
+    color: rgb(45, 153, 45);
 }
 
 #people {
