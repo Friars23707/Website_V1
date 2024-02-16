@@ -139,7 +139,7 @@ body {
 #content {
     background-color: white;
     color: black;
-    height: 100vh;
+    height: 50vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -164,6 +164,50 @@ body {
     font-style: normal;
     font-size: 100%;
     color: black;
+}
+
+#people {
+    color: black;
+    display: grid;
+    gap: 50px;
+    grid-template-columns: auto auto auto;
+    column-count: 3;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+}
+
+#person {
+    align-self: center;
+    grid-column: auto;
+    text-align: center;
+    color: gray;
+}
+
+#person h2 {
+    size-adjust: 300%;
+}
+
+#team-label {
+    background-color: white;
+    color: black;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+}
+
+#team-label h2 {
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: 100%;
+    margin-left: 3%;
 }
 
 #watermark {
