@@ -195,6 +195,10 @@ body {
     size-adjust: 300%;
 }
 
+#person img {
+    max-width: 300px;
+}
+
 #team-label {
     background-color: white;
     color: black;
