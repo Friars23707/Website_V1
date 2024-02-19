@@ -172,12 +172,21 @@ body {
     float: right;
 }
 
+#content li {
+    margin-bottom: 10px;
+}
+
 #events {
     display: grid;
     align-items: center;
     align-self: center;
     grid-template-columns: auto auto auto;
     column-gap: 5%;
+}
+
+#events img {
+    max-width: 50%;
+    margin-left: 10%;
 }
 
 #money {
