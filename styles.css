@@ -232,7 +232,30 @@ body {
 
 #person img {
     max-width: 300px;
-    margin: 5%;
+    margin-left: 6vw;
+}
+
+#funeral h2, #funeral h3 {
+    margin-left: 20px;
+    margin-top: 19.92px;
+    align-self: center;
+    grid-column: auto;
+    text-align: center;
+}
+
+#funeral h2 {
+    size-adjust: 300%;
+    color: black;
+}
+
+#funeral h3 {
+    color: grey;
+    font-style: italic;
+}
+
+#funeral img {
+    max-width: 300px;
+    margin-left: 6vw;
 }
 
 #team-label {
