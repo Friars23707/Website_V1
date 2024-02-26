@@ -23,8 +23,8 @@ body {
     overflow: hidden;
     font-family: Arial, sans-serif;
     height: 100px;
-    padding: 0vh 10vw;
-    margin-left: 10vw;
+    padding: 0vh 0vw;
+    padding-left: 20vw !important;
 }
 
 /* Styles text inside the nav bar */
@@ -37,7 +37,7 @@ body {
     font-size: 18px;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
-    width: 15vw !important;
+    width: 25vw !important;
 }
 
 /* Sets active link color to gold */
@@ -58,12 +58,11 @@ body {
 
 .logo {
     float: left;
-    margin-left: 100px;
     position: relative;
     top: 50%;
-    transform: translateX(-175px);
-    width: 23%;
-    height: 23%;
+    left: -75px;
+    width: 70%;
+    height: 70%;
 }
 
 .team-name {
@@ -84,7 +83,8 @@ body {
 }
   
 .social-media a {  
-    margin: 18px;
+    margin: 18px 4vw;
+    margin-left: 0px !important;
     font-size: 1.5rem;
 }
 
@@ -159,13 +159,16 @@ body {
     font-family: "Poppins", sans-serif;
     font-weight: 600;
     font-style: normal;
-    margin-top: 10%;
+    margin-top: 30%;
+    margin-bottom: 0%;
     font-size: 160%;
     margin-left: 3%;
 }
 
 #content p {
     margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 20%;
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -210,20 +213,26 @@ body {
     justify-content: center;
 }
 
-#person {
+#person h2, #person h3 {
     margin-left: 20px;
     align-self: center;
     grid-column: auto;
     text-align: center;
-    color: gray;
 }
 
 #person h2 {
     size-adjust: 300%;
+    color: black;
+}
+
+#person h3 {
+    color: grey;
+    font-style: italic;
 }
 
 #person img {
     max-width: 300px;
+    margin: 5%;
 }
 
 #team-label {
@@ -250,10 +259,26 @@ body {
 
 #watermark {
     position: relative;
+    float: right !important;
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 60%;
     bottom: 0px;
-    right: 2px;
+    right: 20px;
+}
+
+.watermark {
+    border-top: 2px solid grey !important;
+    white-space: pre-wrap;
+    margin-top: 20vh;
+    width: 90vw;
+    margin-left: 5vw;
+    height: 40vh;
+}
+.watermark p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0vw;
+    font-family: Poppins, sans-serif;
 }
