@@ -7,6 +7,13 @@
 
         {
             "type": "chrome",
+                "request": "launch",
+                "name": "FriarIndustries.html",
+                "file": "D:\\WebsiteV1\\FriarIndustries.html"
+        },
+        
+        {
+            "type": "chrome",
             "request": "launch",
             "name": "FriarIndustries.html",
             "file": "C:\\Users\\Coach\\Documents\\GitHub\\Website_V1\\FriarIndustries.html"
