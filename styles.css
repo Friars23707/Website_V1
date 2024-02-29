@@ -80,6 +80,14 @@ body {
 
 }
 
+.team-name h3 {
+    transform: translateY(3.5vh);
+}
+
+.team-name h4 {
+    transform: translateY(-2.5vh);
+}
+
 .social-media {
     justify-content:center;
     text-align:center;
@@ -166,7 +174,7 @@ body {
     margin-top: 60px!important;
     margin-bottom: 0px;
     font-size: 160%;
-    margin-left: 3%;
+    text-align: center;
 }
 
 #content p {
@@ -305,11 +313,17 @@ body {
     margin-top: 20vh;
     width: 90vw;
     margin-left: 5vw;
-    height: 40vh;
+    height: 32vh;
 }
 .watermark p {
     margin-top: 0px;
     margin-bottom: 0px;
     margin-left: 0vw;
     font-family: Poppins, sans-serif;
+}
+.watermark :nth-child(2) {
+    transform: translateY(-3vh);
+}
+.watermark :nth-child(3) {
+    transform: translateY(-6vh);
 }
