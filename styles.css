@@ -199,6 +199,10 @@ body {
     margin-bottom: 10px;
 }
 
+#content1 h1 {
+    margin-left: 5vw
+}
+
 #events {
     display: flex;
     align-items: top;
@@ -212,10 +216,9 @@ body {
     margin-right: 5%;
 }
 
-#content2 h1 {
-    margin-left: 5vw
+#events h3, h2, ul {
+    padding-top: 15vh;
 }
-
 #events h3 {
     height: 500px;
     width: 600px;
@@ -237,7 +240,7 @@ body {
     min-width: 20px;
     margin-top: 10vh;
     padding-left: 0px;
-    transform: translateX(-10vw);
+    transform: translateX(-9vw);
 }
 
 #events li {
@@ -252,11 +255,42 @@ body {
 }
 
 #events2 img {
-    border-radius: 30%;
-    max-width: 50%;
-    margin-left: 10%;
-    min-width: 700px;
-    max-height: 450px;
+    width: 800px;
+    height: 450px;
+    border-radius: 10%;
+    margin-right: 5%;
+}
+
+#events2 h3, h2, ul {
+    padding-top: 15vh;
+}
+#events2 h3 {
+    height: 500px;
+    width: 600px;
+    align-self: center;
+    margin-left: 5vw;
+    text-align: center;
+    
+}
+
+#events2 h2 {
+    text-align: right;
+    min-width: 10px;
+    height: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+#events2 ul {
+    min-width: 20px;
+    margin-top: 10vh;
+    padding-left: 0px;
+    transform: translateX(-9vw);
+}
+
+#events2 li {
+    width: 150px;
+    margin-bottom: 10px;
 }
 
 #money {
@@ -318,9 +352,7 @@ body {
 
 #funeral img {
     max-width: 300px;
-    margin-left: 9vw;
-    margin-right: 9vw;
-    margin-bottom: 10px;
+    
 }
 
 #team-label {
