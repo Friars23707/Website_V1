@@ -201,13 +201,62 @@ body {
 
 #events {
     display: flex;
-    align-items: center;
+    align-items: top;
     column-gap: 5%;
 }
 
 #events img {
+    width: 800px;
+    height: 450px;
+    border-radius: 10%;
+    margin-right: 5%;
+}
+
+#content2 h1 {
+    margin-left: 5vw
+}
+
+#events h3 {
+    height: 500px;
+    width: 600px;
+    align-self: center;
+    margin-left: 5vw;
+    text-align: center;
+    
+}
+
+#events h2 {
+    text-align: right;
+    min-width: 10px;
+    height: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+#events ul {
+    min-width: 20px;
+    margin-top: 10vh;
+    padding-left: 0px;
+    transform: translateX(-10vw);
+}
+
+#events li {
+    width: 150px;
+    margin-bottom: 10px;
+}
+
+#events2 {
+    display: flex;
+    align-items: top;
+    column-gap: 5%;
+}
+
+#events2 img {
+    border-radius: 30%;
     max-width: 50%;
     margin-left: 10%;
+    min-width: 700px;
+    max-height: 450px;
 }
 
 #money {
