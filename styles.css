@@ -346,10 +346,9 @@ body {
 
 #person img {
     align-self: center;
-    margin-left: 7.5vw !important;
-    margin-top: 5vh;
-    height: 200px;
-    width: 200px;
+    /*margin-left: 7.5vw !important;
+    margin-top: 5vh;*/
+    height: 15em;
     border-radius: 50%
 }
 
