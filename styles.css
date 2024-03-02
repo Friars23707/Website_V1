@@ -340,6 +340,10 @@ body {
     justify-content: center;
 }
 
+#people a {
+    color: blue;
+}
+
 #person h2, #person h3 {
     min-width: 200px;
     display: block;
@@ -453,6 +457,14 @@ body {
 }
 .watermark :nth-child(3) {
     transform: translateY(-6vh);
+}
+
+.watermark a {
+    color: black;
+}
+
+.watermark a:hover {
+    color: gold;
 }
 
 #eventswatermark {
