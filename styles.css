@@ -333,14 +333,8 @@ body {
     margin-left: 6vw;
 }
 
-#funeral {
-    align-items: center;
-    justify-content: center;
-}
-
 #funeral h2, #funeral h3 {
     margin-left: 20px;
-    align-self: center;
     grid-column: auto;
     text-align: center;
 }
@@ -356,8 +350,12 @@ body {
 }
 
 #funeral img {
-    max-width: 300px;
+    display: block;
+    margin: 0 auto;
+    width: 300px;
     align-self: center;
+    align-content: center;
+    justify-self: center;
 }
 
 #team-label {
