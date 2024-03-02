@@ -344,6 +344,15 @@ body {
     color: blue;
 }
 
+#person img {
+    align-self: center;
+    margin-left: 7.5vw !important;
+    margin-top: 5vh;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%
+}
+
 #person h2, #person h3 {
     min-width: 200px;
     display: block;
@@ -356,6 +365,7 @@ body {
 #person h2 {
     size-adjust: 300%;
     color: black;
+    padding-top: 0px;
 }
 
 #person h3 {
