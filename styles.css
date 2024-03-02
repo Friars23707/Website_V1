@@ -311,8 +311,8 @@ body {
 
 #person h2, #person h3 {
     min-width: 200px;
-    margin-left: 5vw;
-    margin-right: 5vw;
+    display: block;
+    margin: 0.5vw 5vw;
     align-self: center;
     grid-column: auto;
     text-align: center;
@@ -364,6 +364,8 @@ body {
     height: 20vh;
     display: flex;
     flex-direction: column;
+    align-self: center;
+    justify-self: center;
     align-items: center;
     justify-content: center;
     font-size: 2em;
