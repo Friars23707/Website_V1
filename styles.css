@@ -173,6 +173,7 @@ body {
     font-style: normal;
     margin-top: 60px!important;
     margin-bottom: 0px;
+    padding-top: 0px;
     font-size: 160%;
     text-align: center;
 }
@@ -203,11 +204,33 @@ body {
     margin-left: 5vw
 }
 
+#content1 a {
+    color: black;
+    text-decoration: underline;
+}
+
+#content1 a:hover {
+    color: gold;
+    text-decoration: underline;
+}
+
+#content2 a {
+    color: black;
+    text-decoration: underline;
+}
+
+#content2 a:hover {
+    color: gold;
+    text-decoration: underline;
+}
+
 #events {
     display: flex;
     align-items: top;
     column-gap: 5%;
 }
+
+
 
 #events img {
     width: 800px;
@@ -247,6 +270,7 @@ body {
     width: 150px;
     margin-bottom: 10px;
 }
+
 
 #events2 {
     display: flex;
@@ -293,6 +317,13 @@ body {
     margin-bottom: 10px;
 }
 
+#eventsborder {
+    width: 90vw;
+    border-bottom: 2px solid grey !important;
+    margin-left: 5vw;
+    margin-bottom: 50px;
+}
+
 #money {
     color: rgb(45, 153, 45);
 }
@@ -309,6 +340,19 @@ body {
     justify-content: center;
 }
 
+#people a {
+    color: blue;
+}
+
+#person img {
+    align-self: center;
+    margin-left: 7.5vw !important;
+    margin-top: 5vh;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%
+}
+
 #person h2, #person h3 {
     min-width: 200px;
     display: block;
@@ -321,6 +365,7 @@ body {
 #person h2 {
     size-adjust: 300%;
     color: black;
+    padding-top: 0px;
 }
 
 #person h3 {
@@ -331,6 +376,16 @@ body {
 #person img {
     max-width: 300px;
     margin-left: 6vw;
+}
+
+#funeral a {
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+}
+
+#funeral a:hover {
+    color: goldenrod;
 }
 
 #funeral h2, #funeral h3 {
@@ -379,7 +434,7 @@ body {
     margin-top: 5%;
     margin-bottom: 5%;
     font-size: 100%;
-    margin-left: 3%;
+    margin-left: 0px;
 }
 
 #watermark {
@@ -411,5 +466,45 @@ body {
     transform: translateY(-3vh);
 }
 .watermark :nth-child(3) {
+    transform: translateY(-6vh);
+}
+
+.watermark a {
+    color: black;
+}
+
+.watermark a:hover {
+    color: gold;
+}
+
+#eventswatermark {
+    position: relative;
+    float: right !important;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60%;
+    bottom: 0px;
+    right: 20px; 
+}
+
+.eventswatermark {
+    border-top: 2px solid grey !important;
+    white-space: pre-wrap;
+    margin-top: 0px;
+    width: 90vw;
+    margin-left: 5vw;
+    height: 32vh;
+}
+.eventswatermark p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0vw;
+    font-family: Poppins, sans-serif;
+}
+.eventswatermark :nth-child(2) {
+    transform: translateY(-3vh);
+}
+.eventswatermark :nth-child(3) {
     transform: translateY(-6vh);
 }
