@@ -111,6 +111,47 @@ body {
       text-shadow: 0 0 50px rgb(190, 190, 190);
 }
 
+.eventsmenu {
+    width:6.44vw;
+}
+
+.eventsdropdown {
+    padding: 0px 12px;
+    padding-top: 0px !important;
+    background-color: black;
+    cursor: pointer;
+    border: 0px;
+    font-size: 1.3vw;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 0px;
+    height: 119px;
+    width: 6.44vw !important;
+}
+
+.buttontext {
+    padding-top: 38px;
+    width: fit-content;
+    height: fit-content;
+}
+
+.eventsdropdown:hover .eventscontent {
+    background-color: white;
+    
+}
+
+.eventscontent {
+    background-color: black;
+    min-width: 100px;
+    z-index: 4;
+}
+
+.eventscontent a {
+    color: white;
+
+
+}
+
 /* Image */
 #parallax {
     background-image: url(images/robotics.jpg);
@@ -125,6 +166,7 @@ body {
     justify-content: center;
     color: white;
     font-size: 3em;
+    z-index: 1;
 }
 
 #parallax h1 {
