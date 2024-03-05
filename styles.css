@@ -14,13 +14,84 @@ body {
     z-index: 10;
 }
 
-.dropdown-content {
-    display: none;
+
+
+
+
+/* Style The Dropdown Button */
+.dropbtn {
+    background-color: transparent;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    overflow: visible;
 }
 
-.eventsmenu:hover {
-    display: block;
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+    overflow: visible;
 }
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-style: solid;
+    border-width: 3px;
+    border-color: white;
+    border-radius: 10px;
+    overflow: visible;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    border-radius: 10px;
+    overflow: visible;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: transparent;
+    overflow: visible;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+    overflow: visible;
+}
+
+/* Adjust the position of the dropdown menu */
+.dropdown-content {
+    right: 0; /* Position the dropdown to the right */
+    overflow: visible;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: transparent;
+    color: gold;
+    overflow: visible;
+}
+
+
+
+
+
 
 /* Navigation Bar */
 .navbar {
@@ -29,7 +100,7 @@ body {
     display: flex;
     justify-content: center;
     overflow: hidden;
-    font-family: Arial, sans-serif;
+    font-family: "Poppins", sans-serif;
     height: 100px;
     padding: 0vh 0vw;
     padding-left: 20vw !important;
@@ -44,7 +115,7 @@ body {
     text-decoration: none;
     font-size: 1.3vw;
     font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Poppins", Helvetica, sans-serif;
     width: 25vw !important;
 }
 
