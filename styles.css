@@ -321,6 +321,10 @@ body {
     margin-bottom: 10px;
 }
 
+#content1 {
+    font-family: "Poppins", sans-serif;
+}
+
 #content1 h1 {
     margin-left: 5vw
 }
@@ -335,12 +339,12 @@ body {
     text-decoration: underline;
 }
 
-#content2 a {
+#content1 a {
     color: black;
     text-decoration: underline;
 }
 
-#content2 a:hover {
+#content1 a:hover {
     color: gold;
     text-decoration: underline;
 }
