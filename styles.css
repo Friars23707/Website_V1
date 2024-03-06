@@ -637,3 +637,6 @@ body {
 .eventswatermark :nth-child(3) {
     transform: translateY(-6vh);
 }
+.eventswatermark :nth-child(4) {
+    transform: translateY(-9vh);
+}
