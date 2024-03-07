@@ -43,7 +43,11 @@
 }
 
 .links {
+    display: flex;
     margin-right: 10px;
+    align-items: center !important;
+    height: 100px;
+    background-color: black;
 }
 
 .links a {
@@ -66,6 +70,10 @@
 
 .active {
     color: goldenrod !important;
+}
+
+.dropdown {
+    background-color: black;
 }
 
 .dropdown button {
@@ -92,6 +100,7 @@
 }
 
 .social-media {
+    background-color: black;
     height: 100px;
     width: 100px;
     display: grid;
