@@ -238,16 +238,22 @@
 
 .sponsor img {
     height: 20rem;
-    width: 20rem;
     margin-bottom: 20px;
 }
 
+.sponsor {
+    margin-bottom: 50px;
+}
+
+
 .person h2, .sponsor h2 {
     margin-bottom: 20px;
+    text-align: center;
 }
 
 .person h3, .sponsor h3 {
     margin-bottom: 20px;
+    text-align: center;
 }
 
 .sponsor span {
