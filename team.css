@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,800;0,900;1,900&display=swap');
+
+
+.navbar.col-m {
+    background-color: black;
+    height: 100px;
+    padding: 0px 0px;
+    justify-content: left;
+}
+
+.navbar-logo {
+    width: 100px !important;
+    height: 100px !important;
+}
+
+.navbar-logo img {
+    height: 100px;
+    width: 100px;
+}
+
+.name {
+    margin-left: 10px;
+}
+
+#team-name {
+    text-decoration: none;
+}
+
+.team-name {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder !important;
+    font-size: 180% !important;
+    margin-bottom: 0px;
+}
+
+.team-number {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder !important;
+    font-size: 150% !important;
+    margin-bottom: 0px;
+}
+
+.links {
+    margin-right: 10px;
+}
+
+.links a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 150%;
+    margin-right: 20px;
+}
+
+.links a:hover {
+    color: goldenrod;
+
+}
+
+.links .sponsors {
+    margin-right: 0px;
+}
+
+.active {
+    color: goldenrod !important;
+}
+
+.dropdown button {
+    background-color: black;
+    border-color: black;
+    height: 100px;
+    border-radius: 0%;
+    color: white;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 150%;
+}
+
+.dropdown button:hover {
+    background-color: black;
+    border-color: black;
+    color: goldenrod;
+}
+
+
+.eventsdropdown.btn.dropdown-toggle.show {
+    border-color: black;
+}
+
+.social-media {
+    height: 100px;
+    width: 100px;
+    display: grid;
+    place-items: center;
+}
+
+.social-media i {
+    color: white;
+    font-size: 200%;
+}
+
+ .social-media i:hover {
+    color: goldenrod;
+ }
+
+
+
+
+
+
+
+#watermark {
+    position: relative;
+    float: right !important;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60%;
+    bottom: 0px;
+    right: 20px; 
+}
+
+#watermark p {
+    margin-top: 50px;
+}
+
+.watermark {
+    border-top: 2px solid grey !important;
+    white-space: pre-wrap;
+    margin-top: 20vh;
+    width: 90vw;
+    margin-left: 5vw;
+    height: 32vh;
+}
+.watermark p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0vw;
+    font-family: Poppins, sans-serif;
+}
+
+.watermark :nth-child(2) {
+    transform: translateY(-3vh);
+}
+.watermark :nth-child(3) {
+    transform: translateY(-6vh);
+}
+.watermark :nth-child(4) {
+    transform: translateY(-9vh);
+}
+
+
+.watermark a {
+    color: black;
+}
+
+.watermark a:hover {
+    color: gold;
+}
