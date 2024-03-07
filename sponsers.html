@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
 <head>
 	<meta charset="UTF-8">
@@ -6,92 +6,90 @@
 	<meta name="format-detection" content="telephone=no">
 	<meta name="description" content="Website of Friar Industries 23707 - St. Anthony's HS">
 	<title>Friar Industries Robotics Club</title>
-	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="team.css">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 <body>
-	<div id="bodywrap" class="overflow-hidden">
-		<header id="header" class="site-header position-absolute">
-				<nav id="header-nav" class="navbar bg-black navbar-expand-lg container-fluid position-fixed">
-					<div class="lgcontainer">
-						<a class="navbar-logo" href="friarindustries.html">
-							<img src="images/logo.png" class="logo">
-						</a>
-					</div>
-					<div class="team-name">
-						<h3>Friar Industries</h3>
-						<h4>23707</h4>
-					</div>
-					<div class="navbar">
-						<a href="FriarIndustries.html">Home</a>
-						<a href="team.html">Team</a>
-						<a class="active" href="sponsers.html">Sponsors</a>
-						<a href="events.html">Events</a>
-					</div>
-					<div class="social-media" style="color: #ffffff;">
-						<a href="https://www.instagram.com/safriarindustries/" target="_blank"><i class="bi bi-instagram"></i></a>
-					</div>
-				</nav>
-			</nav>
-		</header>
+	<div class="navbar col-xs align-items-center">
+		<a class="navbar-logo" href="FriarIndustries.html">
+			<img src="images/logo.png">
+		</a>
+		<div class="name col-xs flex-grow-1">
+			<a id="team-name" href="FriarIndustries.html">
+				<h2 class="team-name">Friar Industries</h2>
+				<h4 class="team-number">23707</h4>
+			</a>
+		</div>
+		<div class="links d-row">
+			<a href="FriarIndustries.html">Home</a>
+			<a href="team.html">Team</a>
+			<a class="navsponsors active" href="sponsers.html">Sponsors</a>
+		</div>
+		<div class="dropdown">
+			<button class="eventsdropdown btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">Events</button>
+			<ul class="dropdown-menu">
+				<li><a class="dropdown-item" href="seasons/23-24.html">Centerstage 23-24</a></li>
+			</ul>
+		</div>
+		<div class="social-media">
+			<a href="https://www.instagram.com/safriarindustries/" target="_blank"><i class="bi bi-instagram"></i></a>
+		</div>
+	</div>
 	<div id="parallax">
-		<h1><i>SPONSORS</i></h1>
+		<h1>SPONSORS</h1>
 	</div>
-	<div id="content">
-		<p>
-			Without our dedicated sponsors we would not have the club we have today. Running a team takes a lot of resources, all of which is provided by our sponsors!
-		</p>
-	</div>
-
-	<div id="people">
-		<div id="funeral">
-			<img src="images/stA.png" alt="St. Anthonys High School Emblem">
-			<h2>St. Anthonys High School</h2>
-			<h3>Funded: <span id="money">$15,000</span></h3>
-			<h3>Other Support: The Innovation Center</h3>
-			<h3><a href="https://www.stanthonyshs.org/" target="blank">Website</a></h3>
+	<div class="content">
+		<p class="category">Without our dedicated sponsors we would not have the club we have today. Running a team takes a lot of resources, all of which is provided by our sponsors!</p>
+		<div class="leaders d-flex">
+			<div class="sponsor">
+				<img src="images/stA.png" alt="St. Anthony's"></img>
+				<h2>St. Anthony's High School</h2>
+				<h3>Funded: <span>$15,000</span></h3>
+				<h3>Other Support: The Innovation Center</h3>
+			</div>
+			<div class="sponsor">
+				<img src="images/funeralCompany (1).jpg" alt="Albrecht, Bruno & O'Shea Funeral Homes Logo">
+				<h2>Albrecht, Bruno & O'Shea Funeral Homes</h2>
+				<h3>Funded: <span id="money">$500</span></h3>
+				<h3><a href="https://osheafuneral.com/Home" target="blank">Website</a></h3>
+			</div>
 		</div>
-		<div id="funeral">
-			<img src="images/funeralCompany (1).jpg" alt="Albrecht, Bruno & O'Shea Funeral Homes Logo">
-			<h2>Albrecht, Bruno & O'Shea Funeral Homes</h2>
-			<h3>Funded: <span id="money">$500</span></h3>
-			<h3><a href="https://osheafuneral.com/Home" target="blank">Website</a></h3>
+		<div class="sponsors d-flex">
+			<div class="sponsor">
+				<img src="images/CazzNYEvents.jpg" alt="CazzNY Events Logo">
+				<h2>Cazz NY Events</h2>
+				<h3>Funded: <span id="money">$100</span></h3>
+				<h3><a href="https://www.cazzny.com/" target="blank">Website</a></h3>	
+			</div>
+			<div class="sponsor">
+				<img src="images/countywidegroup_logo.jpg" alt="County Wide Group Logo">
+				<h2>The County Wide Group</h2>
+				<h3>Funded: <span id="money">$100</span></h3>
+				<h3><a href="https://www.countywidegroup.com/" target="blank">Website</a></h3>
+			</div>
 		</div>
-		<div id="funeral">
-			<img src="images/CazzNYEvents.jpg" alt="CazzNY Events Logo">
-			<h2>Cazz NY Events</h2>
-			<h3>Funded: <span id="money">$100</span></h3>
-			<h3><a href="https://www.cazzny.com/" target="blank">Website</a></h3>
+		<div class="sponsors d-flex">
+			<div class="sponsor">
+				<img src="images/byteLearn.png" alt="ByteLearn Logo">
+				<h2>ByteLearn</h2>
+				<h3>Funded: <span id="money">$100</span></h3>
+				<h3><a href="https://www.bytelearn.com/" target="blank">Website</a></h3>
+			</div>
+			<div class="sponsor">
+				<img src="images/xrobotx.png" alt="X-ROBOTX Logo">
+				<h2>X-RobotX</h2>
+				<h3>Funded: <span id="money">$100</span></h3>
+				<h3><a href="https://www.x-robotx.com/" target="blank">Website</a></h3>
+			</div>
 		</div>
-		<div id="funeral">
-			<img src="images/countywidegroup_logo.jpg" alt="County Wide Group Logo">
-			<h2>The County Wide Group</h2>
-			<h3>Funded: <span id="money">$100</span></h3>
-			<h3><a href="https://www.countywidegroup.com/" target="blank">Website</a></h3>
-		</div>
-		<div id="funeral">
-			<img src="images/jmCapital.png" alt="JM Capital Group Logo">
-			<h2>JM Capital Group</h2>
-			<h3>Funded: <span id="money">$100</span></h3>
-			<h3><a href="https://jmcapgroup.com/" target="blank">Website</a></h3>
-		</div>
-		<div id="funeral">
-			<img src="images/byteLearn.png" alt="ByteLearn Logo">
-			<h2>ByteLearn</h2>
-			<h3>Funded: <span id="money">$100</span></h3>
-			<h3><a href="https://www.bytelearn.com/" target="blank">Website</a></h3>
-		</div>
-		<div id="funeral">
-			<img src="images/xrobotx.png" alt="X-ROBOTX Logo">
-			<h2>X-RobotX</h2>
-			<h3>Funded: <span id="money">$100</span></h3>
-			<h3><a href="https://www.x-robotx.com/" target="blank">Website</a></h3>
-		</div>
-		<div id="funeral">
-			<img src="images/blueislandhomes.webp" alt="Blue Island Homes Logo">
-			<h2>Blue Island Homes</h2>
-			<h3>Funded: <span id="money">$100</span></h3>
-			<h3><a href="https://blueislandhomesny.com/" target="blank">Website</a></h3>
+		<div class="sponsors d-flex">
+			<div class="sponsor">
+				<img src="images/blueislandhomes.webp" alt="Blue Island Homes Logo">
+				<h2>Blue Island Homes</h2>
+				<h3>Funded: <span id="money">$100</span></h3>
+				<h3><a href="https://blueislandhomesny.com/" target="blank">Website</a></h3>
+			</div>
 		</div>
 	</div>
 	<div class="watermark">
@@ -103,5 +101,7 @@
 	<div id="watermark">
 		<p>Website made by Adam Jacuch, Logan Rembisz, Kevin Liang, and Erlis Hoxha</p>
 	</div>
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
